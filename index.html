@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<title>Sans titre</title>
+<!--Adobe Edge Runtime-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" charset="utf-8" src="index_edgePreload.js"></script>
+    <script type="text/javascript">var clickTag = "https://www.google.com"; </script>
+    <style>
+        .edgeLoad-EDGE-69201358 { visibility:hidden; }
+    </style>
+<!--Adobe Edge Runtime End-->
+
+</head>
+<body style="margin:0;padding:0;">
+<div id="wrapper" style="display: block;width:300px; height: 230px; position:absolute; top: 0; left: 0; z-index:1;"></div>
+
+<!--	<a href="javascript:window.open(window.clickTag)" style="display: block;width:300px; height: 230px; position:absolute; top: 0; left: 0; z-index:1;"></a>-->
+
+	<div id="Stage" class="EDGE-69201358">
+    </div>
+    
+    <script>
+        document.getElementById('wrapper').onclick = function () {
+    
+          parent.postMessage("Hello parent!", "*");
+    
+        };
+      </script>
+</body>
+</html>
